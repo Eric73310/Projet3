@@ -1,0 +1,212 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+p {
+    color: #8e1d1d;
+    font-size: larger;
+    font-family: 'Dosis', sans-serif;
+    }
+
+
+    
+#contenu
+{
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}  
+
+body{
+    
+    max-width: 1920px;
+    text-align: center;
+}
+
+#banner{
+
+background-image: url("photo_lac.jpg");
+height: 600px;
+margin-bottom: 20px;
+
+}
+
+
+h1
+{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px;
+    color: seashell;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin-top: 0px;
+    }
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+    color: seashell;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    }
+
+#br1  {
+margin: 0 auto;
+width: 1000px;
+padding: 1em;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 1em;
+text-align: left;
+display: flex;
+gap: 20px;
+justify-content: center;
+text-decoration: underline;
+}
+
+#br2, #br3, #br4
+{
+    text-decoration: underline;
+
+}
+
+#br2{
+    width:1000px;
+    text-align: center;
+}
+
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+
+
+#footer, .logos
+{
+    font-size: 12px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.cgv_cgu
+{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #1D418E;
+    font-size: larger;
+    font-family: 'Dosis', sans-serif;
+}
+
+#cgv
+{
+    color: #1D418E;
+    font-size: larger;
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+
+}
+
+a {color:#1D418E;}         /* Unvisited link  */
+a:visited {color:#1D418E;} /* Visited link    */
+a:hover {color:#FF00FF;}   /* Mouse over link */
+
+ul {
+    list-style-type: none;
+    }
+
+.container_logements
+    {
+        font-size: large;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 20px 20px 20px 20px;
+        max-width: 400px;
+        min-width: 400px;
+        border: 3px rgb(106, 186, 223) groove;
+        background-color: #e0e0e0e0;
+    }
+    
+#resultat_recherche
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:1000px;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+
+#photo{
+    max-width: 1000px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bigpic{
+    max-height: 500px;
+    max-width: 500px;
+    justify-content: center;
+    
+
+}
+
+#quatro
+{
+    max-height: 500px;
+    max-width: 500px;
+    justify-content: center;
+    
+}
+
+#logement_title
+{
+    font-family: 'Dosis', sans-serif;
+    color: #1D418E;
+    text-shadow: none;
+}
+
+#texte
+{
+    width: 1000px;
+    margin: 100px;
+    font-family: 'Dosis', sans-serif;
+    color: #1D418E;
+    text-align: left;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calendrier
+{
+display: flex;
+justify-content: center;
+}
